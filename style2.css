@@ -1,0 +1,144 @@
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5;
+  font-size: 1.5rem;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+
+nav {
+  border: 1px solid #333;
+  margin: 1rem auto;
+  background-color: #eee;
+  background-image: url(https://img1.baidu.com/it/u=2323333276,1287032129&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500);
+  border-bottom: 5px solid #00bff3;
+  border-top: 5px solid #00bff3;
+}
+
+nav a {
+  color: #00bff3;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+  background-color: #f0c808;
+  color: black;
+}
+nav a:hover {
+  background-color: #f0c808;
+  color: #ff583d;
+  background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+.active {
+  color: #ff583d;
+  background-color: #c5e5ed;
+  background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+body {
+/* Old browsers */
+background: #ffcccc;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #35577D, #0040ff);
+margin: 0;
+padding: 0;
+}
+
+h1 {
+color: #FFF;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+}
+
+h2 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+font-weight: 100;
+font-size: 22px;
+line-height: 24px;
+padding-bottom: 30px;
+text-align: center;
+width: 70%;
+}
+
+p {
+color: aliceblue;
+line-height: 1.3em;
+text-align: left;
+width: 100%;
+}
+
+.byline {
+font-family: Helvetica;
+color: rgba(255, 255, 255, 0.5);
+float: left;
+font-size: 14px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.caption {
+display: block;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-style: italic;
+line-height: 34px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+text-align: center;
+top: 50%;
+width: 90%;
+}
+
+.content {
+padding: 40px;
+}
+
+.image {
+background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1113%2F062R0133646%2F20062Q33646-11-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651633390&t=b62c697d51346730e272b7d0157f0ca3);
+background-size: cover;
+background-position: left;
+height: 900px;
+}
+
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: left;
+width: 50px;
+}
